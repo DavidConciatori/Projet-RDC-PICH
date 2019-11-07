@@ -1,0 +1,9 @@
+material/material.C
+
+Crofer22APU/Crofer22APU.C
+LSM/LSM.C
+NiYSZ/NiYSZ.C
+YSZ/YSZ.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libmaterials

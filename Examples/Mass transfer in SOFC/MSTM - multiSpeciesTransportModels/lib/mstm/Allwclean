@@ -1,0 +1,15 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+thermophysicalModels/Allwclean
+
+wcleanLnIncludeAll diffusivityModels
+wcleanLnIncludeAll momentumTransport
+wcleanLnIncludeAll multiSpeciesTransportModels
+
+wclean diffusivityModels
+wclean momentumTransport
+wclean multiSpeciesTransportModels
+
+# ----------------------------------------------------------------- end-of-file

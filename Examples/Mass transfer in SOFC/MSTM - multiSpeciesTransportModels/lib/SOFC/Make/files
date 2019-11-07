@@ -1,0 +1,25 @@
+
+components/component/component.C
+components/solidComponent/solidComponent.C
+components/fluidComponent/fluidComponent.C
+
+components/channel/channel.C
+components/electrode/electrode.C
+
+components/electrolyte/overpotentialModels/ButtlerVolmer/ButtlerVolmer.C
+components/electrolyte/overpotentialModels/exchangeCurrent/exchangeCurrent.C
+components/electrolyte/overpotentialModels/activationOverpotentials/activationOverpotential.C
+components/electrolyte/overpotentialModels/activationOverpotentials/activationOverpotentials.C
+components/electrolyte/overpotentialModels/concentrationOverpotentials/concentrationOverpotential.C
+components/electrolyte/overpotentialModels/concentrationOverpotentials/concentrationOverpotentials.C
+components/electrolyte/overpotentialModels/ohmicOverpotential/ohmicOverpotential.C
+
+components/electrolyte/electrolyte.C
+
+regionPropertiesSOFC/regionPropertiesSOFC.C
+
+derivedFvPatchFields/mySurfaceNormalFixedValue/mySurfaceNormalFixedValueFvPatchVectorField.C
+derivedFvPatchFields/Faraday/FaradayFvPatchField.C
+derivedFvPatchFields/electrolyteThermalFlux/electrolyteThermalFluxFvPatchField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libSOFC

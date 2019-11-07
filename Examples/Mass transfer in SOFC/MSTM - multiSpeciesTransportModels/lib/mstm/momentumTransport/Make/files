@@ -1,0 +1,9 @@
+
+momentumTransport/momentumTransport.C
+momentumTransport/newMomentumTransport.C
+
+SIMPLE/SIMPLE.C
+porousSIMPLE/porousSIMPLE.C
+Darcy/Darcy.C
+
+LIB = $(FOAM_USER_LIBBIN)/libmomentumTransport

@@ -1,0 +1,8 @@
+
+mixtures/basicMultiComponentMixtureSOFC/basicMultiComponentMixtureSOFC.C
+
+combustionThermo/hsCombustionThermoSOFC/hsCombustionThermoSOFC.C
+combustionThermo/hsCombustionThermoSOFC/newhsCombustionThermoSOFC.C
+combustionThermo/hsCombustionThermoSOFC/hsCombustionThermoSOFCs.C
+
+LIB = $(FOAM_USER_LIBBIN)/libreactionThermophysicalModelsSOFC

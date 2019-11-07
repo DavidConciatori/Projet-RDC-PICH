@@ -1,0 +1,7 @@
+           
+SOFCteamFunction/SOFCteamFunction.C
+
+SOFCteamFunc3/SOFCteamFunc3.C
+SOFCteamFunc4/SOFCteamFunc4.C
+
+LIB = $(FOAM_USER_LIBBIN)/libSOFCteamFunctions

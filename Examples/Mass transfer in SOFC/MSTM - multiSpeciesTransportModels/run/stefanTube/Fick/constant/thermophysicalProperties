@@ -1,0 +1,59 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM Extend Project: Open Source CFD        |
+|  \\    /   O peration     | Version:  1.6-ext                               |
+|   \\  /    A nd           | Web:      www.extend-project.de                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      thermophysicalProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Species
+species
+(
+    H2
+    H2O
+);
+
+// Thermodynamic species data
+H2 H2 1 2.01588                               
+      200 6000 1000 
+      40783.2 -800.919 8.2147 -0.0126971 1.75361e-05 -1.20286e-08 3.36809e-12 2682.48 -30.4379
+      560813 -837.15 2.97536 0.00125225 -3.74072e-07 5.93663e-11 -3.60699e-15 5339.82 -2.20277
+      1.67212e-06 170.672;
+    
+H2O H2O 1 18.0153
+        200 6000 1000 
+        -39479.6 575.573 0.931783 0.00722271 -7.34256e-06 4.95504e-09 -1.33693e-12 -33039.7 17.2421
+        1.03497e+06 -2412.7 4.64611 0.002292 -6.83683e-07 9.42647e-11 -4.82238e-15 -13842.9 -7.97815
+        1.67212e-06 170.672;
+
+// Fuller diffusive volume
+Fuller
+{
+  H2    6.12;
+  H2O   13.1;
+}
+
+// Characteristic Lennard–Jones energy
+epsilonLJ
+{
+  H2    59.7;
+  H2O   809.1;
+}
+
+// Diameter of the molecular collision [angstroms]
+collisionalDiametre
+{
+  H2    2.827;
+  H2O   2.641;
+}
+
+// ************************************************************************* //

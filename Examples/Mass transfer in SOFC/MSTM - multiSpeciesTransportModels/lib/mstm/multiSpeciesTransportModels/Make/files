@@ -1,0 +1,14 @@
+
+multiSpeciesTransportModel/multiSpeciesTransportModel.C
+
+Fick/Fick.C
+FickDilutedMixture/FickDilutedMixture.C
+Bosanquet/Bosanquet.C
+MaxwellStefan/MaxwellStefan.C
+dustyGas/dustyGas.C
+
+derivedFvPatchFields/fixedFluxBC/fixedFluxFvPatchField.C
+derivedFvPatchFields/inertSpeciesDependent/inertSpeciesDependentFvPatchVectorField.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libmultiSpeciesTransportModels

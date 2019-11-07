@@ -1,0 +1,15 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+wcleanLnIncludeAll SOFCteamFunctions
+wcleanLnIncludeAll specie
+wcleanLnIncludeAll materials
+wcleanLnIncludeAll reactionThermo
+
+wclean SOFCteamFunctions
+wclean specie
+wclean materials
+wclean reactionThermo
+
+# ----------------------------------------------------------------- end-of-file

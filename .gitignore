@@ -1,7 +1,5 @@
 ﻿################################################################################
-# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /.vs
-/TransFoam/.vs
-/TransFoam/out/build/x64-Debug

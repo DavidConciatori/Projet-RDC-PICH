@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Chloride_transport", "Chloride_transport.vbproj", "{4F6977EE-05FA-4966-8EA7-0F4E4A5867BA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "@TransChlor", "@TransChlor\@TransChlor.vdproj", "{E9ABD896-6146-4CB1-92F7-4464972CEE18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4F6977EE-05FA-4966-8EA7-0F4E4A5867BA}.Debug.ActiveCfg = Debug|.NET
+		{4F6977EE-05FA-4966-8EA7-0F4E4A5867BA}.Debug.Build.0 = Debug|.NET
+		{4F6977EE-05FA-4966-8EA7-0F4E4A5867BA}.Release.ActiveCfg = Release|.NET
+		{4F6977EE-05FA-4966-8EA7-0F4E4A5867BA}.Release.Build.0 = Release|.NET
+		{E9ABD896-6146-4CB1-92F7-4464972CEE18}.Debug.ActiveCfg = Debug
+		{E9ABD896-6146-4CB1-92F7-4464972CEE18}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
